@@ -1,0 +1,207 @@
+/* About Section Styles */
+/* Add spacing for fixed navbar to avoid overlap with content */
+/* body {
+    padding-top: 80px;
+} */
+
+/* Transparent Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Semi-transparent black */
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it's above other elements */
+    box-shadow: none; /* Remove shadow if any */
+    padding: 15px 0; /* Adjust padding for height */
+    transition: background-color 0.3s ease; /* Smooth transition for effects */
+}
+
+/* Ensure the text is visible against the transparent background */
+.navbar .nav-link {
+    color: white !important; /* White text */
+    font-weight: bold; /* Bold text for emphasis */
+    font-size: 25px; /* Increase font size */
+    padding: 10px 20px; /* Add padding for better spacing */
+}
+
+/* Hover Effect for Navbar Links */
+.navbar .nav-link:hover {
+    color: #f96a6a !important; /* Change color on hover */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.navbar .navbar-brand {
+    color: white !important; /* White text */
+    font-weight: bold; /* Bold text for emphasis */
+    font-size: 25px; /* Increase font size */
+    padding: 10px 20px; /* Add padding for better spacing */
+}
+
+/* Hover Effect for Navbar Links */
+.navbar .navbar-brand:hover {
+    color: #f96a6a !important; /* Change color on hover */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+#about img {
+    border: 4px solid #ddd;
+    transition: transform 0.3s;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+/* Skills Section */
+#skills h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#skills i {
+    transition: transform 0.3s;
+}
+
+#skills i:hover {
+    transform: scale(1.2);
+}
+
+#skills p {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Projects Section */
+#projects h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Contact Section */
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#contact form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact form .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+#contact form input,
+#contact form textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* #contact form button {
+    font-weight: bold;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+#contact form button:hover {
+    background-color: #0056b3;
+} */
+
+/* Custom style for the Learn More button */
+.custom-btn {
+    background-color: #000000;  /* Black background */
+    color: #ffffff;  /* White text color */
+    border: 2px solid #ffffff;  /* White border */
+    padding: 12px 30px;  /* Padding for better size */
+    font-size: 16px;  /* Font size */
+    font-weight: bold;  /* Bold text */
+    border-radius: 30px;  /* Rounded corners */
+    transition: all 0.3s ease-in-out;  /* Smooth transition for effects */
+}
+
+/* Hover effect */
+.custom-btn:hover {
+    background-color: #ffffff;  /* White background on hover */
+    color: #000000;  /* Black text color on hover */
+    border-color: #000000;  /* Black border on hover */
+    transform: scale(1.1);  /* Slightly scale up the button */
+}
+
+.custom-btn-send {
+    background-color: #000000;  /* Black background */
+    color: #ffffff;  /* White text color */
+    border: 2px solid #ffffff;  /* White border */
+    padding: 12px 352px;  /* Padding for better size */
+    font-size: 16px;  /* Font size */
+    font-weight: bold;  /* Bold text */
+    border-radius: 30px;  /* Rounded corners */
+    /* text-transform: uppercase;  Uppercase text */
+    transition: all 0.3s ease-in-out;  /* Smooth transition for effects */
+}
+
+/* Hover effect */
+.custom-btn-send:hover {
+    background-color: #ffffff;  /* White background on hover */
+    color: #000000;  /* Black text color on hover */
+    border-color: #000000;  /* Black border on hover */
+    transform: scale(1.04);  /* Slightly scale up the button */
+}
+
+.custom-btn-github {
+    background-color: #000000;  /* Black background */
+    color: #ffffff;  /* White text color */
+    border: 2px solid #ffffff;  /* White border */
+    padding: 12px 30px;  /* Padding for better size */
+    font-size: 16px;  /* Font size */
+    font-weight: bold;  /* Bold text */
+    border-radius: 30px;  /* Rounded corners */
+    transition: all 0.3s ease-in-out;  /* Smooth transition for effects */
+}
+
+/* Hover effect */
+.custom-btn-github:hover {
+    background-color: #ffffff;  /* White background on hover */
+    color: #000000;  /* Black text color on hover */
+    border-color: #000000;  /* Black border on hover */
+    transform: scale(1.1);  /* Slightly scale up the button */
+}
